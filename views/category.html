@@ -1,0 +1,11 @@
+
+<img class="loading" ng-hide="loaded" src="./public/images/loading.gif">				
+<ul class="category">
+	<li ng-repeat="(key, value) in columns">
+		<a href="javascript:;">
+			<img src="{{value.icon}}" alt="">
+			<h5>{{value.name}}</h5>
+			<p>{{value.description}}</p>
+		</a>
+	</li>
+</ul>
